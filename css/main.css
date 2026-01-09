@@ -1,0 +1,62 @@
+﻿body {
+	font: 62.5% Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	margin: 0;
+	padding: 0;
+	background: #000000;
+}
+
+#header-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;	
+}
+
+#header-container {
+	height: 57px;
+	background: url('../images/z4.gif') repeat-x left bottom;
+}
+
+#header {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header h1 {
+	color: #0000ff;
+	text-align: left;
+	font-size: xx-small;
+    width: 160px;
+	margin: 0;
+	position: absolute;
+	left: 160px;
+	top: 28px;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.4em;
+	overflow: hidden;
+	padding: 60px 0px 10px 0px;
+}
+
+#content {
+	float: left;
+	width: 100%;
+}
+
+#footer-wrap {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;	
+}
+
+#footer-container {
+	height: 27px;
+	background: none repeat-x left bottom;
+	background-color: #000000;
+}
